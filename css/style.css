@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  background: rgb(24, 16, 50) !important;
+  padding: 10px 0;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  gap: 50px;
+}
+header .container nav a {
+  text-decoration: none;
+  color: white !important;
+  font-size: 16px;
+  font-weight: 700;
+}
+header .container nav a:hover {
+  color: rgb(35, 150, 237) !important;
+}
+
+.form-wrapper form {
+  border-radius: 12px;
+  padding: 30px;
+  margin: 0 auto;
+  width: 1000px;
+  background-color: rgb(226, 225, 231);
+  margin-top: 50px;
+  box-shadow: 0 0 5px 2px rgb(218, 218, 218);
+}
+.form-wrapper form label {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+.form-wrapper form label input {
+  border-radius: 12px;
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid rgb(140, 140, 140);
+}
+.form-wrapper form label input:focus {
+  border: 2px solid rgb(120, 120, 225);
+  transition: all 0.1s linear;
+}
+.form-wrapper form div {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+.form-wrapper form div button {
+  padding: 10px 25px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: rgb(24, 16, 50);
+  color: white;
+}
+.form-wrapper form div button:hover {
+  background: rgb(29, 86, 129);
+  transition: all 0.2s linear;
+}
+
+.inputs_bg {
+  background-color: transparent !important;
+}
+
+.img {
+  width: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clr {
+  color: blue;
+}
+
+#wiew-product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+#wiew-product .car {
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 0 4px 2px rgb(213, 213, 213);
+  width: 300px;
+  background: rgba(255, 255, 255, 0.385);
+}
+#wiew-product .car img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+#searchProduct {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  border-radius: 12px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+#searchProduct:focus {
+  border: 2px solid rgb(24, 16, 50);
+  transition: all 0.1s linear;
+}
+
+#searchButton {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 2px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border: none;
+  background: rgb(24, 16, 50);
+  color: white;
+  font-weight: 600;
+  position: relative;
+  top: -49px;
+  left: -290px;
+  cursor: pointer;
+}
+
+.inpt {
+  display: flex;
+  align-items: center;
+}
+
+.delete {
+  padding: 8px 118px;
+  border-radius: 12px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background: rgb(24, 16, 50);
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  top: 14px;
+  left: -14px;
+  cursor: pointer;
+  font-family: sans-serif;
+}/*# sourceMappingURL=style.css.map */
